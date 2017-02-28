@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		431C2A35049C8A4DFC17C232 /* libPods-ImageTapScrollView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA7FBB09A3EA28B280BC6675 /* libPods-ImageTapScrollView.a */; };
 		7B80C5491E654AF900B1D5ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B80C5481E654AF900B1D5ED /* main.m */; };
 		7B80C54C1E654AF900B1D5ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B80C54B1E654AF900B1D5ED /* AppDelegate.m */; };
 		7B80C54F1E654AF900B1D5ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B80C54E1E654AF900B1D5ED /* ViewController.m */; };
@@ -15,6 +16,13 @@
 		7B80C5571E654AF900B1D5ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B80C5551E654AF900B1D5ED /* LaunchScreen.storyboard */; };
 		7B80C5621E654AF900B1D5ED /* ImageTapScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B80C5611E654AF900B1D5ED /* ImageTapScrollViewTests.m */; };
 		7B80C56D1E654AF900B1D5ED /* ImageTapScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B80C56C1E654AF900B1D5ED /* ImageTapScrollViewUITests.m */; };
+		7B80C57F1E654E9A00B1D5ED /* PicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B80C57E1E654E9A00B1D5ED /* PicTableViewCell.m */; };
+		7B80C58F1E65506C00B1D5ED /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B80C5821E65506C00B1D5ED /* UITableView+SDAutoTableViewCellHeight.m */; };
+		7B80C5901E65506C00B1D5ED /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B80C5841E65506C00B1D5ED /* UIView+SDAutoLayout.m */; };
+		7B80C5911E65506C00B1D5ED /* PicScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B80C5871E65506C00B1D5ED /* PicScrollView.m */; };
+		7B80C5921E65506C00B1D5ED /* SDBrowserImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B80C5891E65506C00B1D5ED /* SDBrowserImageView.m */; };
+		7B80C5931E65506C00B1D5ED /* SDPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B80C58B1E65506C00B1D5ED /* SDPhotoBrowser.m */; };
+		7B80C5941E65506C00B1D5ED /* SDWaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B80C58E1E65506C00B1D5ED /* SDWaitingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		310BC68855394CE9501EF099 /* Pods-ImageTapScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageTapScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImageTapScrollView/Pods-ImageTapScrollView.release.xcconfig"; sourceTree = "<group>"; };
 		7B80C5441E654AF900B1D5ED /* ImageTapScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageTapScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B80C5481E654AF900B1D5ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7B80C54A1E654AF900B1D5ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +60,24 @@
 		7B80C5681E654AF900B1D5ED /* ImageTapScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageTapScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B80C56C1E654AF900B1D5ED /* ImageTapScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageTapScrollViewUITests.m; sourceTree = "<group>"; };
 		7B80C56E1E654AFA00B1D5ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B80C57D1E654E9A00B1D5ED /* PicTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PicTableViewCell.h; sourceTree = "<group>"; };
+		7B80C57E1E654E9A00B1D5ED /* PicTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PicTableViewCell.m; sourceTree = "<group>"; };
+		7B80C5811E65506C00B1D5ED /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		7B80C5821E65506C00B1D5ED /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+		7B80C5831E65506C00B1D5ED /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
+		7B80C5841E65506C00B1D5ED /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
+		7B80C5861E65506C00B1D5ED /* PicScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PicScrollView.h; sourceTree = "<group>"; };
+		7B80C5871E65506C00B1D5ED /* PicScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PicScrollView.m; sourceTree = "<group>"; };
+		7B80C5881E65506C00B1D5ED /* SDBrowserImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDBrowserImageView.h; sourceTree = "<group>"; };
+		7B80C5891E65506C00B1D5ED /* SDBrowserImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDBrowserImageView.m; sourceTree = "<group>"; };
+		7B80C58A1E65506C00B1D5ED /* SDPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPhotoBrowser.h; sourceTree = "<group>"; };
+		7B80C58B1E65506C00B1D5ED /* SDPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDPhotoBrowser.m; sourceTree = "<group>"; };
+		7B80C58C1E65506C00B1D5ED /* SDPhotoBrowserConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPhotoBrowserConfig.h; sourceTree = "<group>"; };
+		7B80C58D1E65506C00B1D5ED /* SDWaitingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWaitingView.h; sourceTree = "<group>"; };
+		7B80C58E1E65506C00B1D5ED /* SDWaitingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWaitingView.m; sourceTree = "<group>"; };
+		7B80C5971E65539300B1D5ED /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C7E92317EB8375F7D1BDD6B1 /* Pods-ImageTapScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageTapScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImageTapScrollView/Pods-ImageTapScrollView.debug.xcconfig"; sourceTree = "<group>"; };
+		DA7FBB09A3EA28B280BC6675 /* libPods-ImageTapScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ImageTapScrollView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				431C2A35049C8A4DFC17C232 /* libPods-ImageTapScrollView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +113,8 @@
 				7B80C5601E654AF900B1D5ED /* ImageTapScrollViewTests */,
 				7B80C56B1E654AF900B1D5ED /* ImageTapScrollViewUITests */,
 				7B80C5451E654AF900B1D5ED /* Products */,
+				C1076398E547348824DAA0D4 /* Pods */,
+				9888D8DBC3E7559F9A583395 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +135,11 @@
 				7B80C54B1E654AF900B1D5ED /* AppDelegate.m */,
 				7B80C54D1E654AF900B1D5ED /* ViewController.h */,
 				7B80C54E1E654AF900B1D5ED /* ViewController.m */,
+				7B80C57D1E654E9A00B1D5ED /* PicTableViewCell.h */,
+				7B80C57E1E654E9A00B1D5ED /* PicTableViewCell.m */,
+				7B80C5971E65539300B1D5ED /* PrefixHeader.pch */,
+				7B80C5801E65506C00B1D5ED /* SDAutoLayout */,
+				7B80C5851E65506C00B1D5ED /* SDPhotoBrowser */,
 				7B80C5501E654AF900B1D5ED /* Main.storyboard */,
 				7B80C5531E654AF900B1D5ED /* Assets.xcassets */,
 				7B80C5551E654AF900B1D5ED /* LaunchScreen.storyboard */,
@@ -140,6 +175,50 @@
 			path = ImageTapScrollViewUITests;
 			sourceTree = "<group>";
 		};
+		7B80C5801E65506C00B1D5ED /* SDAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				7B80C5811E65506C00B1D5ED /* UITableView+SDAutoTableViewCellHeight.h */,
+				7B80C5821E65506C00B1D5ED /* UITableView+SDAutoTableViewCellHeight.m */,
+				7B80C5831E65506C00B1D5ED /* UIView+SDAutoLayout.h */,
+				7B80C5841E65506C00B1D5ED /* UIView+SDAutoLayout.m */,
+			);
+			path = SDAutoLayout;
+			sourceTree = "<group>";
+		};
+		7B80C5851E65506C00B1D5ED /* SDPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				7B80C5861E65506C00B1D5ED /* PicScrollView.h */,
+				7B80C5871E65506C00B1D5ED /* PicScrollView.m */,
+				7B80C5881E65506C00B1D5ED /* SDBrowserImageView.h */,
+				7B80C5891E65506C00B1D5ED /* SDBrowserImageView.m */,
+				7B80C58A1E65506C00B1D5ED /* SDPhotoBrowser.h */,
+				7B80C58B1E65506C00B1D5ED /* SDPhotoBrowser.m */,
+				7B80C58C1E65506C00B1D5ED /* SDPhotoBrowserConfig.h */,
+				7B80C58D1E65506C00B1D5ED /* SDWaitingView.h */,
+				7B80C58E1E65506C00B1D5ED /* SDWaitingView.m */,
+			);
+			path = SDPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		9888D8DBC3E7559F9A583395 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA7FBB09A3EA28B280BC6675 /* libPods-ImageTapScrollView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1076398E547348824DAA0D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7E92317EB8375F7D1BDD6B1 /* Pods-ImageTapScrollView.debug.xcconfig */,
+				310BC68855394CE9501EF099 /* Pods-ImageTapScrollView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B80C5711E654AFA00B1D5ED /* Build configuration list for PBXNativeTarget "ImageTapScrollView" */;
 			buildPhases = (
+				CAEFC857084B8611A026333E /* [CP] Check Pods Manifest.lock */,
 				7B80C5401E654AF900B1D5ED /* Sources */,
 				7B80C5411E654AF900B1D5ED /* Frameworks */,
 				7B80C5421E654AF900B1D5ED /* Resources */,
+				4AD05D76D3130C972B7454AE /* [CP] Embed Pods Frameworks */,
+				9F23ACE4A05A98035791225A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,14 +353,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4AD05D76D3130C972B7454AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImageTapScrollView/Pods-ImageTapScrollView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F23ACE4A05A98035791225A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImageTapScrollView/Pods-ImageTapScrollView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAEFC857084B8611A026333E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7B80C5401E654AF900B1D5ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B80C5921E65506C00B1D5ED /* SDBrowserImageView.m in Sources */,
+				7B80C57F1E654E9A00B1D5ED /* PicTableViewCell.m in Sources */,
 				7B80C54F1E654AF900B1D5ED /* ViewController.m in Sources */,
+				7B80C5901E65506C00B1D5ED /* UIView+SDAutoLayout.m in Sources */,
 				7B80C54C1E654AF900B1D5ED /* AppDelegate.m in Sources */,
+				7B80C5941E65506C00B1D5ED /* SDWaitingView.m in Sources */,
 				7B80C5491E654AF900B1D5ED /* main.m in Sources */,
+				7B80C5931E65506C00B1D5ED /* SDPhotoBrowser.m in Sources */,
+				7B80C5911E65506C00B1D5ED /* PicScrollView.m in Sources */,
+				7B80C58F1E65506C00B1D5ED /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,9 +562,11 @@
 		};
 		7B80C5721E654AFA00B1D5ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7E92317EB8375F7D1BDD6B1 /* Pods-ImageTapScrollView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5RB2V72B8B;
+				GCC_PREFIX_HEADER = ImageTapScrollView/PrefixHeader.pch;
 				INFOPLIST_FILE = ImageTapScrollView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Shichuangke.ImageTapScrollView;
@@ -437,9 +576,11 @@
 		};
 		7B80C5731E654AFA00B1D5ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 310BC68855394CE9501EF099 /* Pods-ImageTapScrollView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5RB2V72B8B;
+				GCC_PREFIX_HEADER = ImageTapScrollView/PrefixHeader.pch;
 				INFOPLIST_FILE = ImageTapScrollView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Shichuangke.ImageTapScrollView;
@@ -516,6 +657,7 @@
 				7B80C5731E654AFA00B1D5ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B80C5741E654AFA00B1D5ED /* Build configuration list for PBXNativeTarget "ImageTapScrollViewTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +666,7 @@
 				7B80C5761E654AFA00B1D5ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B80C5771E654AFA00B1D5ED /* Build configuration list for PBXNativeTarget "ImageTapScrollViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +675,7 @@
 				7B80C5791E654AFA00B1D5ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
